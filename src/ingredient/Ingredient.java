@@ -1,6 +1,9 @@
+package ingredient;
+
 public class Ingredient {
     private boolean requiresRefrigeration;
     private boolean isExpired;
+    protected int calories;
 
     public Ingredient(boolean requiresRefrigeration, boolean isExpired) {
         this.requiresRefrigeration = requiresRefrigeration;

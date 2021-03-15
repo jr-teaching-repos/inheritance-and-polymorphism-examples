@@ -1,3 +1,7 @@
+package jelly;
+
+import ingredient.Ingredient;
+
 public class Jelly extends Ingredient {
 
     private String brand;

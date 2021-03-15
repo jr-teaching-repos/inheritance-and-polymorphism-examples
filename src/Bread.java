@@ -1,3 +1,5 @@
+import ingredient.Ingredient;
+
 public class Bread extends Ingredient {
 
     private boolean isWholeWheat;

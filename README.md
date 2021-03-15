@@ -24,13 +24,13 @@ KitchenTool
             void spin()
             void breakPlate()
     
-Ingredient
+ingredient.Ingredient
     boolean requiresRefridgeration
     boolean isExpired
     addWater()
     applyHeat()
 
-        Jelly
+        jelly.Jelly
             String brand
             String flavor
             openJar()

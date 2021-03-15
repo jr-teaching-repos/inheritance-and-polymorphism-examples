@@ -1,3 +1,5 @@
+import ingredient.Ingredient;
+
 public class PeanutButter extends Ingredient {
 
     private boolean isCrunchy;
