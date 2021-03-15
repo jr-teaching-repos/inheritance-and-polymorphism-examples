@@ -17,4 +17,25 @@ public class Bread extends Ingredient {
         System.out.println("Toasting bread...");
     }
 
+    @Override
+    public void throwAway() {
+        System.out.println("Throwing away bread...");
+    }
+
+    public boolean isWholeWheat() {
+        return isWholeWheat;
+    }
+
+    public void setWholeWheat(boolean wholeWheat) {
+        isWholeWheat = wholeWheat;
+    }
+
+    public int getSlicesLeftInLoaf() {
+        return slicesLeftInLoaf;
+    }
+
+    public void setSlicesLeftInLoaf(int slicesLeftInLoaf) {
+        this.slicesLeftInLoaf = slicesLeftInLoaf;
+    }
+
 }

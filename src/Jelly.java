@@ -17,6 +17,11 @@ public class Jelly extends Ingredient {
         System.out.println("Checking lid...");
     }
 
+    @Override
+    public void throwAway() {
+        System.out.println("Throwing away jelly...");
+    }
+
     public String getBrand() {
         return brand;
     }

@@ -15,6 +15,10 @@ public class Ingredient {
         System.out.println("Applying heat to ingredient...");
     }
 
+    public void throwAway() {
+        System.out.println("Throwing away ingredient...");
+    }
+
     public boolean isRequiresRefrigeration() {
         return requiresRefrigeration;
     }

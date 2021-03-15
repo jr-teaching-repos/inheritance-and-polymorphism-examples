@@ -17,6 +17,11 @@ public class PeanutButter extends Ingredient {
         System.out.println("Adding chocolate because why not??");
     }
 
+    @Override
+    public void throwAway() {
+        System.out.println("Throwing away peanut butter...");
+    }
+
     public boolean isCrunchy() {
         return isCrunchy;
     }
